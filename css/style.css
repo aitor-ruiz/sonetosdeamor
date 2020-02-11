@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/corazon-1.svg) left top repeat-y,
+     url(../img/corazon-2.svg) right top repeat-y;
+     background-size: 9%;
+    font-family: sans-serif;
+    background-color: #FFEBF0;
+
+}
+
+header h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Características generales */
+
+p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;  
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    border: black 1.5px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Primer poema */
+section.primero{
+    background-image: url(../img/manchas.png);
+}
+
+.primero p{
+    color: white;
+}
+
+section.dos{
+    background: url("../img/fuego.svg") left bottom no-repeat, 
+    url("../img/fuego.svg") right bottom no-repeat, 
+    url(../img/tallos.jpg);
+}
+
+.dos p {
+    color: #FFDD00;
+}
+
+section.tres{
+    background: url(../img/ojo.svg) center no-repeat, url(../img/hexagonos.jpg);
+    
+}
+
+.tres p{
+    color: #800000;
+}
+
+section.cuatro{
+    background: url(../img/caballo.svg) right bottom repeat-x , url(../img/estrellas.png);
+    background-size: 10%;
+    padding-bottom: 60px;
+}
+
+.cuatro p {
+    color: #004D06;
+}
